@@ -6,7 +6,7 @@ export default class HandleEvent extends Component {
         alert('hello');
     }
 
-    showInfo = () => {
+    showInfo = (name) => {
         alert(`name ${name}`)
     }
     render() {
